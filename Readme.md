@@ -1,4 +1,4 @@
-### LangChain QA Chatbot
+# LangChain QA Chatbot
 This project demonstrates the creation of a retrieval-based question-answering chatbot using LangChain, a library for Natural Language Processing (NLP) tasks. The chatbot leverages a pre-trained language model, text embeddings, and efficient vector storage for answering questions based on a given context.
 
 ## General Steps
@@ -19,13 +19,13 @@ This project demonstrates the creation of a retrieval-based question-answering c
 
 2. Run ChainLit: Employ ChainLit to run the chatbot application. Execute chainlit run app.py to start the chatbot.
 
-# ingest.py
+### ingest.py
 In the ingest.py script, a vector dataset is created from PDF documents using the LangChain library. This involves converting PDFs into text chunks, further splitting the text, generating text embeddings, and saving them using the FAISS vector store.
 
-# app.py
+### app.py
 The app.py script defines a retrieval-based question-answering chatbot using LangChain components. It loads the LLama 2 model, sets up a QA chain with a custom prompt template, and uses FAISS for retrieving relevant answers.
 
-### Code Explanation
+## Code Explanation
 * create_vector_db(): Creates a vector database from the PDF data.
 * set_custom_prompt(): Defines a custom prompt template for QA retrieval, including context and question placeholders.
 * load_llm(): Loads the quantized LLama 2 model using ctransformers.
@@ -35,7 +35,7 @@ The app.py script defines a retrieval-based question-answering chatbot using Lan
 # ChainLit Implementation
 The script uses ChainLit to handle user interactions and execute the chatbot functionality.
 
-Usage
+## Usage
 * On chat start, the bot initializes the QA chain.
 * Users can ask questions, and the bot responds with relevant answers.
 * If available, sources of information are provided along with the answer.
