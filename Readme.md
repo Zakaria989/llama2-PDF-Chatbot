@@ -40,6 +40,6 @@ The script uses ChainLit to handle user interactions and execute the chatbot fun
 * Users can ask questions, and the bot responds with relevant answers.
 * If available, sources of information are provided along with the answer.
 ## Other
-The PDF used is "The Project Gutenberg EBook of Encyclopaedia Britannica, 11th Edition, Volume 15, Slice 3": Link to the Project Gutenberg eBook
+The PDF used is "The Project Gutenberg EBook of Encyclopaedia Britannica, 11th Edition, Volume 15, Slice 3": https://www.gutenberg.org/ebooks/41156
 
-This project is based on another GitHub project from AIAnytime and is meant as a learning project: AIAnytime GitHub Repository
+This project is based on another GitHub project from AIAnytime and is meant as a learning project: https://github.com/AIAnytime/Llama2-Medical-Chatbot
